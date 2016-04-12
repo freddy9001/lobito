@@ -26,7 +26,8 @@ header #logo2 {
 #contenedor {
 	margin: 0 auto;
 	width: 80%;
-	background-color: #D58E8E;
+	background-color: #000000;
+	color: white;
 }
 #contenedor #contenido {
 	
