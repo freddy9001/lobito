@@ -23,13 +23,36 @@ header #logo2 {
 	color: #6A1111;
 }
 
+p {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
 #contenedor {
 	margin: 0 auto;
 	width: 80%;
 	background-color: #000000;
 	color: white;
+	-webkit-box-shadow: -1px -1px 21px 5px rgba(0,0,0,0.7);
+-moz-box-shadow: -1px -1px 21px 5px rgba(0,0,0,0.7);
+box-shadow: -1px -1px 21px 5px rgba(0,0,0,0.7);
 }
 #contenedor #contenido {
 	
 	padding: 2em;
+}
+#contenedor #imagen {
+	text-align: center;
 }
