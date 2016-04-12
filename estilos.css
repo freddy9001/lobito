@@ -1,0 +1,34 @@
+body
+{
+	font-family: arial;
+	font-size: 16px;
+}
+header {
+	/*width: 100%;*/
+}
+header #logo {
+	width: 100%;
+	/*height: 200px;*/
+	background-color: #9C9C9C;
+	float: left;
+	/*padding: 2em;*/
+
+}
+header #logo2 {
+	float: right;
+}
+
+#contenido h1 {
+	text-align: center;
+	color: #6A1111;
+}
+
+#contenedor {
+	margin: 0 auto;
+	width: 80%;
+	background-color: #D58E8E;
+}
+#contenedor #contenido {
+	
+	padding: 2em;
+}
