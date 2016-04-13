@@ -12,10 +12,14 @@ header #logo {
 	background-color: #9C9C9C;
 	float: left;
 	/*padding: 2em;*/
+	animation-duration: 3s;
+  animation-name: slidein;
 
 }
 header #logo2 {
 	float: right;
+	animation-duration: 3s;
+  animation-name: slidein;
 }
 
 #contenido h1 {
